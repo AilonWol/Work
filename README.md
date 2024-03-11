@@ -12,7 +12,7 @@
 
 ### 📫 Как связаться со мной:
 
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/сайт) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:ailonwol@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/ссылка на профиль LingIn) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:ailonwol@gmail.com)
   
 ---
 
@@ -28,7 +28,7 @@
      <a href="https://vk.ru/id818817322" target="_blank">
       <img src="https://github.com/AilonWol/Work/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/vk.png" width="40" height="40" alt="vk" />
     </a>
-     <a href="https://t.me/ailon_wol" target="_blank">
+     <a href="Ссылка на Twitter" target="_blank">
       <img src="https://github.com/AilonWol/Work/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/twitter.png" width="40" height="40" alt="X" />
     </a>
   </div>
@@ -39,9 +39,9 @@
 
 - [Checklists](https://github.com/AilonWol/Work/blob/main/Testing/SBS%20(guru.qahacking.ru)/Manual_testing_(Documentation)/sbs.xlsx)
 - [Test-suites and Test-cases](ссылка на листы)
-- [Bug-reports]()
-- [SQL Queries]()
-- [Postman Collections]()
+- [Bug-reports](ссылка на листы)
+- [SQL Queries](ссылка на листы)
+- [Postman Collections](ссылка на листы)
 
 ---
 
@@ -67,7 +67,7 @@
 
 <div>
   <img src="ссылка на фото" title="Postman" alt="Postman" width="40" height="40"/>&nbsp
-  <img src="ссылка на фото" title="SoapUI" alt="soapUI" width="40" height="40"/>&nbsp
+  <img src="ссылка на фото" title="SoapUI" alt="SoapUI" width="40" height="40"/>&nbsp
 </div>
 
 ---
