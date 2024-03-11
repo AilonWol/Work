@@ -9,8 +9,13 @@
 Стремлюсь использовать свои навыки коммуникации и управления для повышения обеспечения контроля качества. 
 Моя цель - внести вклад в успех команды разработки через эффективное тестирование и обеспечение высокого уровня качества продукта.
 
-- 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@artsiomrusau-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/сайт) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:ailonwol@gmail.com)
+
+### 📫 Как связаться со мной:
+
+[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/сайт) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:ailonwol@gmail.com)
+  
 ---
+
 ### 🤝 Социальные сети:
 
   <div id="badges">
