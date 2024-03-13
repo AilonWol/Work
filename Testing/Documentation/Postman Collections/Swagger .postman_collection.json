@@ -1,0 +1,458 @@
+{
+	"info": {
+		"_postman_id": "87f6c850-3ef0-4d98-ba2d-2f4b6a5a3387",
+		"name": "Swagger PetStore Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31436452"
+	},
+	"item": [
+		{
+			"name": "PET",
+			"item": [
+				{
+					"name": "Find Pet by ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/pet/111",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pet",
+								"111"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "chupacabra",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NewPet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 111,\r\n  \"category\": {\r\n    \"id\": 2,\r\n    \"name\": \"dogs\"\r\n  },\r\n  \"name\": \"Sharik\",\r\n  \"photoUrls\": [\r\n    \"stepik.org\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"cute\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/pet"
+					},
+					"response": []
+				},
+				{
+					"name": "Update a Pet",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 111,\r\n  \"category\": {\r\n    \"id\": 333,\r\n    \"name\": \"Wierd_Animals\"\r\n  },\r\n  \"name\": \"Chupacabra_Forever\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"NeverSeenBefore\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/pet"
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/pet/findByStatus?status=pending,available,sold",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pet",
+								"findByStatus"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "pending,available,sold"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "uploadImage",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "image/jpeg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/TatToRus/Desktop/Green Sea Turtle.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/pet/111/uploadImage",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pet",
+								"111",
+								"uploadImage"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update wih Form data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "file",
+							"file": {}
+						},
+						"url": {
+							"raw": "{{url}}/pet/111?name=Puff&status=pending",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pet",
+								"111"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Puff"
+								},
+								{
+									"key": "status",
+									"value": "pending"
+								},
+								{
+									"key": "petId",
+									"value": "111",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/pet?petId =111",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"pet"
+							],
+							"query": [
+								{
+									"key": "petId ",
+									"value": "111"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "oauth2",
+				"oauth2": {
+					"addTokenTo": "header"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "withArray",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"id\": 892374892374289347,\r\n    \"username\": \"Godzilla\",\r\n    \"firstName\": \"Godzilla\",\r\n    \"lastName\": \"Jira\",\r\n    \"email\": \"jira@yahoo.com\",\r\n    \"password\": \"jira\",\r\n    \"phone\": \"892374892374289347\",\r\n    \"userStatus\": 0\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/user/createWithArray"
+					},
+					"response": []
+				},
+				{
+					"name": "createWithList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"id\": 48932753894570,\r\n    \"username\": \"JozefBidon\",\r\n    \"firstName\": \"Kubyshka\",\r\n    \"lastName\": \"JozeftheOld\",\r\n    \"email\": \"albus@yahoo.com\",\r\n    \"password\": \"albus\",\r\n    \"phone\": \"48932753894570\",\r\n    \"userStatus\": 0\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/user/createWithList"
+					},
+					"response": []
+				},
+				{
+					"name": "Updated user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 654654564,\r\n  \"username\": \"Sharik\",\r\n  \"firstName\": \"Sharik-Ty-Balbes\",\r\n  \"lastName\": \"Prostokvashin\",\r\n  \"email\": \"111@yandex.ru\",\r\n  \"password\": \"111\",\r\n  \"phone\": \"654654564\",\r\n  \"userStatus\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/user/111"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "{{url}}/user/JozefBidon"
+					},
+					"response": []
+				},
+				{
+					"name": "Logs user into the system",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user/login?username=Bidon&password=Bidon",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"login"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "Bidon"
+								},
+								{
+									"key": "password",
+									"value": "Bidon"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}/user/logout"
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 5854,\r\n  \"username\": \"Bidon\",\r\n  \"firstName\": \"JozefBidon\",\r\n  \"lastName\": \"President\",\r\n  \"email\": \"stringsof@strings.com\",\r\n  \"password\": \"stringsofstrings\",\r\n  \"phone\": \"5854\",\r\n  \"userStatus\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/user"
+					},
+					"response": []
+				},
+				{
+					"name": "Get by UserName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}/user/JozefBidon"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "STORE",
+			"item": [
+				{
+					"name": "Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 10,\r\n  \"petId\": 111,\r\n  \"quantity\": 10,\r\n  \"shipDate\": \"2023-11-24T06:20:56.796Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{url}}/store/order"
+					},
+					"response": []
+				},
+				{
+					"name": "Find Purchase by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}/store/order/10"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete purchase by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "orderId",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{url}}/store/order/10"
+					},
+					"response": []
+				},
+				{
+					"name": "Inventory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}/store/inventory"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": {
+			"addTokenTo": "header"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
