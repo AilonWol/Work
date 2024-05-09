@@ -1,5 +1,5 @@
 # 🧐📝 Тест кейс
--  [Пример тест кейса в Google Sheets]()
+-  [Пример набора тест-кейсов в Google Sheets](https://docs.google.com/spreadsheets/d/1_EdlfzKa2xMfBKEPnvxTHoyplj2yyvgSX10jlSMbyW4/edit?usp=sharing)
 
 Шаблон тест кейса:
 
