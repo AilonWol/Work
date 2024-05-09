@@ -1,4 +1,4 @@
-# 🧐📝 Тест кейс
+# 🧐📝 Тест кейсы и Тестовые наборы
 -  [Пример набора тест-кейсов в Google Sheets](https://docs.google.com/spreadsheets/d/1_EdlfzKa2xMfBKEPnvxTHoyplj2yyvgSX10jlSMbyW4/edit?usp=sharing)
 -  [Пример тест-кейса в Google Sheets]()
 -  [Пример тест-кейса (ТЗ - детские качели) в Google Sheets](https://docs.google.com/spreadsheets/d/1pe9i-SzLB9XpqdJZiIg2TxW8hXKthZHZxppMXffupQk/edit?usp=sharing)
