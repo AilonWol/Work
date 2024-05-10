@@ -1,5 +1,5 @@
 # 🕵📋 Чек листы
--  [Пример чек листа в Google Sheets](https://docs.google.com/spreadsheets/d/1Trsm8bV7-RD8TB0VYSWH6m-3wqhDdO4LnwcIyA68DbQ/edit?usp=sharing)
+-  [Пример чек листа (Поле "Имя") в Google Sheets](https://docs.google.com/spreadsheets/d/1Trsm8bV7-RD8TB0VYSWH6m-3wqhDdO4LnwcIyA68DbQ/edit?usp=sharing)
 
 Шаблон чек листа:
 
