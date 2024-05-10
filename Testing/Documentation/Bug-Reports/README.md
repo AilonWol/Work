@@ -16,3 +16,9 @@
 | `Приоритет`             | Показывает, как быстро дефект должен быть устранён                                                             |
 | `Серьезность`           | Показывает, как сильно дефект влияет на работу системы, проекта                                                |
 | `Окружающая среда`      | Ссылка на билд/коммит/версия ПО и всего окружения, где нашли баг. Например, ОС, браузер или тестовая среда     |
+
+## Примеры
+|        Google Sheets        |        Microsoft Word        |        Quse        |
+|-----------------------------|------------------------------|--------------------|
+| <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Bug%20report_Homepage_SBS.png" width="1950"> | <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Bug%20report_Ya_Br_Google_Sh.png" width="1300"> |<img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Bug%20report_Homepage_SBS_Jira.png" width="1600">  | 
+
