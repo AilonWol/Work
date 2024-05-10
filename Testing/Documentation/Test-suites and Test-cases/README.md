@@ -21,5 +21,5 @@
 ## Примеры
 |        Google Sheets        |        Quse        | 
 |-----------------------------|--------------------|
-| <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Test-suites_google_sh.png" width="1300"> | <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Qase_test-cases_VKmarket.png" width="1000">  | 
+| <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/Test-suites_google_sh.png" width="1300"> | <img src="" width="1000">  | 
 
