@@ -1,5 +1,5 @@
 # 🐞📑 Баг репорт
--  [Пример баг репорта в Google Sheets]()
+-  [Пример баг репорта в Google Sheets](https://docs.google.com/spreadsheets/d/1xE884m8sIseDaX6tVHSvB8hX99KhtqzWwJxgPvAsCcw/edit?usp=sharing)
 
 Шаблон баг репорта:
 
