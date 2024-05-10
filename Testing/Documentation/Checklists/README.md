@@ -12,4 +12,4 @@
 ## Примеры
 |        Старое        |        Новое        | 
 |----------------------|---------------------|
-| <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/CL_MG.png" width="650"> | <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/CL_MG_NW.png" width="1000">  | 
+| <img src="" width="650"> | <img src="https://github.com/AilonWol/AilonWol/blob/main/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/CL_MG_NW.png" width="1000">  | 
